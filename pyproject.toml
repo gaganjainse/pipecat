@@ -140,8 +140,8 @@ speechmatics = [ "speechmatics-voice~=0.2.8" ]
 # pipecat's SpeechmaticsSTTService uses the cloud API and imports only the
 # core speechmatics.voice classes — the local ML turn detector (SileroVAD /
 # SmartTurnDetector) is never imported by the service. Users who want the
-# local smart detector can add speechmatics-voice[smart] explicitly.
-speechmatics-smart = [ "speechmatics-voice[smart]~=0.2.8" ]
+# local smart detector can add speechmatics-voice[smart] explicitly (note:
+# that is mutually exclusive with local-smart-turn for the same reason).
 strands = [ "strands-agents>=1.9.1,<2" ]
 tavus = [ "pipecat-ai[daily]" ]
 together = []
