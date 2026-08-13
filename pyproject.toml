@@ -133,7 +133,15 @@ simli = [ "simli-ai~=2.0.1"]
 smallest = []
 soniox = []
 soundfile = [ "soundfile~=0.13.1" ]
-speechmatics = [ "speechmatics-voice[smart]~=0.2.8" ]
+speechmatics = [ "speechmatics-voice~=0.2.8" ]
+# NOTE: no `[smart]` extra. speechmatics-voice[smart] pins transformers<5
+# (>=4.57,<5), which blocks the transformers HIGH RCE fix (GHSA-fgcw-684q-jj6r,
+# patched >=5.5.0) whenever this extra is combined with local-smart-turn.
+# pipecat's SpeechmaticsSTTService uses the cloud API and imports only the
+# core speechmatics.voice classes — the local ML turn detector (SileroVAD /
+# SmartTurnDetector) is never imported by the service. Users who want the
+# local smart detector can add speechmatics-voice[smart] explicitly.
+speechmatics-smart = [ "speechmatics-voice[smart]~=0.2.8" ]
 strands = [ "strands-agents>=1.9.1,<2" ]
 tavus = [ "pipecat-ai[daily]" ]
 together = []
