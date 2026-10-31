@@ -1,5 +1,5 @@
 version = 1
-revision = 3
+revision = 5
 requires-python = ">=3.11"
 resolution-markers = [
     "python_full_version >= '3.14'",
@@ -3833,6 +3833,7 @@ wheels = [
     { url = "https://files.pythonhosted.org/packages/cc/78/e50c2bd502e58a644a606d5668152f549472538c9bb49783264b18e0f056/moonshine_voice-0.1.2-py3-none-manylinux_2_31_aarch64.whl", hash = "sha256:3586466ea300db820fa2e1acad74bf8d8a75206cb68fd8ccb359396e0f54698b", size = 18389097, upload-time = "2026-08-13T05:06:44.07Z" },
     { url = "https://files.pythonhosted.org/packages/3e/ac/a763a382644f349733b94813f1161434babaf854f3f7d8695788ee1e7d25/moonshine_voice-0.1.2-py3-none-manylinux_2_34_aarch64.whl", hash = "sha256:cfb7ed34563b2cf98ae22cf42d96b1e09f047c82416f3aac607863f9421fa993", size = 18522621, upload-time = "2026-08-13T04:55:51.018Z" },
     { url = "https://files.pythonhosted.org/packages/c7/3c/9b391e0f1a506d4f58eca91cc56736c2cf86f9b80889f8605da47d768340/moonshine_voice-0.1.2-py3-none-manylinux_2_34_x86_64.whl", hash = "sha256:abaa9ef9e7e8e563b7df023573688d190c289e07cb543012c9b39223c907a268", size = 19779335, upload-time = "2026-08-13T04:43:03.47Z" },
+    { url = "https://files.pythonhosted.org/packages/ff/92/0e832f302c069fc9f0fa7d1dcd3ff772c54482e2f5e7ae3eb7c78cca8422/moonshine_voice-0.1.2-py3-none-win_amd64.whl", hash = "sha256:99405744b864e6fbc7a296bdc6e8e122bf562b5bce303cb12a93bce8544aadf5", size = 16441120, upload-time = "2026-08-13T21:20:29.204Z" },
 ]
 
 [[package]]
@@ -5724,11 +5725,11 @@ wheels = [
 
 [[package]]
 name = "pyasn1"
-version = "0.6.4"
+version = "0.6.5"
 source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/a4/9a/23310166d960def5897e91fe20e5b724601b02a22e84ba1f94232c0b7f67/pyasn1-0.6.4.tar.gz", hash = "sha256:9c447d8431c947fe4c8febc4ed9e760bc29011a5b01e5c74b67025bd9fb8ce81", size = 151262, upload-time = "2026-07-09T01:12:33.988Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/88/7e/3c0da41061a2021cac7cd524fd57092adbe5b515e8bf9005702e366802e2/pyasn1-0.6.5.tar.gz", hash = "sha256:6b11616a6bcf3a40e635f082bb232fa57b5e0dd7f517bd7ddd69ec3794508a47", size = 155152, upload-time = "2026-10-27T06:32:49.125Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/9a/3b/6163796d69c3977d1e4287bea4a6979161cbbdd170ebb430511e8e1999ce/pyasn1-0.6.4-py3-none-any.whl", hash = "sha256:deda9277cfd454080ec40b207fb6df82206a3a2688735233cdcd8d3d565f088b", size = 84410, upload-time = "2026-07-09T01:12:32.92Z" },
+    { url = "https://files.pythonhosted.org/packages/19/1f/3eefd5c84c35cae44549ce1c7f7e58f7945b34f5a6bce07a135438522073/pyasn1-0.6.5-py3-none-any.whl", hash = "sha256:4017b0fce125096b8573b39c989fdb1a4b19cf761e683398184550fea0e66587", size = 84807, upload-time = "2026-10-27T06:32:48.045Z" },
 ]
 
 [[package]]
