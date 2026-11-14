@@ -1,5 +1,5 @@
 version = 1
-revision = 3
+revision = 5
 requires-python = ">=3.11"
 resolution-markers = [
     "python_full_version >= '3.14'",
@@ -3833,6 +3833,7 @@ wheels = [
     { url = "https://files.pythonhosted.org/packages/cc/78/e50c2bd502e58a644a606d5668152f549472538c9bb49783264b18e0f056/moonshine_voice-0.1.2-py3-none-manylinux_2_31_aarch64.whl", hash = "sha256:3586466ea300db820fa2e1acad74bf8d8a75206cb68fd8ccb359396e0f54698b", size = 18389097, upload-time = "2026-08-13T05:06:44.07Z" },
     { url = "https://files.pythonhosted.org/packages/3e/ac/a763a382644f349733b94813f1161434babaf854f3f7d8695788ee1e7d25/moonshine_voice-0.1.2-py3-none-manylinux_2_34_aarch64.whl", hash = "sha256:cfb7ed34563b2cf98ae22cf42d96b1e09f047c82416f3aac607863f9421fa993", size = 18522621, upload-time = "2026-08-13T04:55:51.018Z" },
     { url = "https://files.pythonhosted.org/packages/c7/3c/9b391e0f1a506d4f58eca91cc56736c2cf86f9b80889f8605da47d768340/moonshine_voice-0.1.2-py3-none-manylinux_2_34_x86_64.whl", hash = "sha256:abaa9ef9e7e8e563b7df023573688d190c289e07cb543012c9b39223c907a268", size = 19779335, upload-time = "2026-08-13T04:43:03.47Z" },
+    { url = "https://files.pythonhosted.org/packages/ff/92/0e832f302c069fc9f0fa7d1dcd3ff772c54482e2f5e7ae3eb7c78cca8422/moonshine_voice-0.1.2-py3-none-win_amd64.whl", hash = "sha256:99405744b864e6fbc7a296bdc6e8e122bf562b5bce303cb12a93bce8544aadf5", size = 16441120, upload-time = "2026-08-13T21:20:29.204Z" },
 ]
 
 [[package]]
@@ -4077,7 +4078,7 @@ wheels = [
 
 [[package]]
 name = "nltk"
-version = "3.10.3"
+version = "3.10.4"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "click" },
@@ -4086,9 +4087,9 @@ dependencies = [
     { name = "regex" },
     { name = "tqdm" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/e0/e6/fe51d2bb1a3b446f59c5c8165999a9fee208bc346af90a7cbf7657bc0d75/nltk-3.10.3.tar.gz", hash = "sha256:bb9327a461c3811c2fa4900e03840401f2126adfb30c0072827c433bd2444ea4", size = 5137152, upload-time = "2026-08-12T23:46:37.258Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/3a/cb/bbaa9be58e95d21729c6b9194376610230e0755f6de0bf38b6acc0dce079/nltk-3.10.4.tar.gz", hash = "sha256:44679f4e9220abfd496d2c8cdb22f8425ccbe557604f9aa5cacb1c44003dabc1", size = 4300570, upload-time = "2026-10-21T11:34:35.851Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/b6/6d/ebd2af4640b12168fdf0cb74b6118df2f32a2f62ec7e0c06fbfd80706639/nltk-3.10.3-py3-none-any.whl", hash = "sha256:ff9598a8e20518ee0d557745890cc4435b9578489e2dcbc69c4f81fa060caf7c", size = 1798643, upload-time = "2026-08-12T23:44:13.478Z" },
+    { url = "https://files.pythonhosted.org/packages/a2/04/e7816813e409ca874ba2fcc35455db0e4130b79eb277e1f9edd270ca3c69/nltk-3.10.4-py3-none-any.whl", hash = "sha256:769ba5413f265b7d3e87cd163cc28efa01e29eeef8bb6080bc907949d9fcfb51", size = 1722994, upload-time = "2026-10-21T11:34:27.975Z" },
 ]
 
 [[package]]
