@@ -1,5 +1,5 @@
 version = 1
-revision = 3
+revision = 5
 requires-python = ">=3.11"
 resolution-markers = [
     "python_full_version >= '3.14'",
@@ -3833,6 +3833,7 @@ wheels = [
     { url = "https://files.pythonhosted.org/packages/cc/78/e50c2bd502e58a644a606d5668152f549472538c9bb49783264b18e0f056/moonshine_voice-0.1.2-py3-none-manylinux_2_31_aarch64.whl", hash = "sha256:3586466ea300db820fa2e1acad74bf8d8a75206cb68fd8ccb359396e0f54698b", size = 18389097, upload-time = "2026-08-13T05:06:44.07Z" },
     { url = "https://files.pythonhosted.org/packages/3e/ac/a763a382644f349733b94813f1161434babaf854f3f7d8695788ee1e7d25/moonshine_voice-0.1.2-py3-none-manylinux_2_34_aarch64.whl", hash = "sha256:cfb7ed34563b2cf98ae22cf42d96b1e09f047c82416f3aac607863f9421fa993", size = 18522621, upload-time = "2026-08-13T04:55:51.018Z" },
     { url = "https://files.pythonhosted.org/packages/c7/3c/9b391e0f1a506d4f58eca91cc56736c2cf86f9b80889f8605da47d768340/moonshine_voice-0.1.2-py3-none-manylinux_2_34_x86_64.whl", hash = "sha256:abaa9ef9e7e8e563b7df023573688d190c289e07cb543012c9b39223c907a268", size = 19779335, upload-time = "2026-08-13T04:43:03.47Z" },
+    { url = "https://files.pythonhosted.org/packages/ff/92/0e832f302c069fc9f0fa7d1dcd3ff772c54482e2f5e7ae3eb7c78cca8422/moonshine_voice-0.1.2-py3-none-win_amd64.whl", hash = "sha256:99405744b864e6fbc7a296bdc6e8e122bf562b5bce303cb12a93bce8544aadf5", size = 16441120, upload-time = "2026-08-13T21:20:29.204Z" },
 ]
 
 [[package]]
@@ -5295,7 +5296,7 @@ dev = [
     { name = "pytest-asyncio", specifier = ">=1.0.0,<2" },
     { name = "python-dotenv", specifier = ">=1.0.1,<2.0.0" },
     { name = "ruff", specifier = ">=0.12.11,<1" },
-    { name = "setuptools", specifier = "~=83.0.0" },
+    { name = "setuptools", specifier = ">=83.0,<84.2" },
     { name = "setuptools-scm", specifier = "~=8.3.1" },
     { name = "towncrier", specifier = "~=25.8.0" },
 ]
@@ -7237,11 +7238,11 @@ wheels = [
 
 [[package]]
 name = "setuptools"
-version = "83.0.0"
+version = "84.1.0"
 source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/34/26/f5d29e25ffdb535afef2d35cdb55b325298f96debd670da4c325e08d70f4/setuptools-83.0.0.tar.gz", hash = "sha256:025bccbbf0fa05b6192bc64ae1e7b16e001fd6d6d4d5de03c97b1c1ade523bef", size = 1154254, upload-time = "2026-07-04T15:31:22.699Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/73/eb/7e5f628ee2eb168fecbf8026de7856b2543d6d609cc85f086b9a91ac93d6/setuptools-84.1.0.tar.gz", hash = "sha256:23657205b63d4d31395ab917815247f694aafad28cd21316bf5fd45a51048ea0", size = 1171783, upload-time = "2026-10-19T20:11:43.489Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/5d/40/e1e72872c6354b306daef1703549e8e83b4d43cfea356311bf722a043752/setuptools-83.0.0-py3-none-any.whl", hash = "sha256:29b23c360f22f414dc7336bb39178cc7bcbf6021ed2733cde173f09dba19abb3", size = 1008090, upload-time = "2026-07-04T15:31:20.885Z" },
+    { url = "https://files.pythonhosted.org/packages/18/02/b4bbb90f8f29e334898ff45c6d9b1fffaa6f378017052b3023a06262b5f7/setuptools-84.1.0-py3-none-any.whl", hash = "sha256:5231689c6ac8156cd155cfb98c3fd6fb252c3e7e9bd3d78b64d3c55f132624c9", size = 819380, upload-time = "2026-10-19T20:11:41.684Z" },
 ]
 
 [[package]]
